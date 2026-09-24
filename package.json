@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "@prisma/client": "6.19.0"
+  },
+  "private": true,
+  "version": "1.0.0",
+  "name": "reservaciones-restaurante",
+  "scripts": {
+    "validate": "prisma validate",
+    "format": "prisma format",
+    "migrate": "prisma migrate dev",
+    "migrate:status": "prisma migrate status",
+    "migrate:deploy": "prisma migrate deploy",
+    "generate": "prisma generate"
+  },
+  "devDependencies": {
+    "prisma": "6.19.0"
+  }
+}
